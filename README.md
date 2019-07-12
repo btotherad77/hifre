@@ -14,7 +14,7 @@ Published in Analytical Chemistry: https://pubs.acs.org/doi/pdf/10.1021/acs.anal
 The code is designed to take fastq files directly from the output of the MinKNOW software with no preprocessing on other software. Also, please note that modications will be required to adapt the code to different sequences.
 
 1. Put the .fastq files into a folder in the MATLAB workspace. Call InitializeVars(); to set up constants.
-2. Call [header, sequences] = a_readAll('<your folder name>'); 
+2. Call [header, sequences] = a_readAll('your folder name'); 
 3. dist = b_lengthdist(sequences); will give you the distribution of lengths in your unprocessed sequencing data.
 4. [output,alignments,calignments,seqs,errorcount_before,errorcount_after]=c_locateRepeats(sequences,FP,1,1,1,0,1,0,0)
   the output variable is the bread and butter and contains the majority of the analytical information--the other variables are mostly for error checking.
