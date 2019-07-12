@@ -1,14 +1,10 @@
 # hifre
 Code to accompany the HiFRe manuscript (link)
-Pre-print available at https://www.biorxiv.org/content/10.1101/552224v1
+Published in Analytical Chemistry: https://pubs.acs.org/doi/pdf/10.1021/acs.analchem.9b00856
 
 *****************************************************************************************************
 ***************   note: this code is shared in interest of scientific transparency.   ***************
 ***************    it is not user friendly or readily adaptable to other scenarios    ***************
-*****************************************************************************************************
-
-*****************************************************************************************************
-***************     I am still in the process of cleaning/documenting the code       ****************
 *****************************************************************************************************
 
 
